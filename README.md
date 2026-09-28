@@ -3,7 +3,7 @@
 
 This repository accompanies the manuscript **An End-to-End Computer Vision Workflow for Fusarium Head Blight Phenotyping in Wheat Using Smartphone Images**.
 
-This covers the development and implementation of multiple machine learnings models, used to create and validate this workflow. 
+This covers the development and implementation of multiple machine learning models used to create and validate this workflow. 
 
 The YOLO_Train file denotes the hyperparameter optimization and training settings used for each object detection model. The hyperparameters used for each model in this study are found in the Hyperparameters folder. 
 
@@ -13,4 +13,4 @@ The FHB_Estimation_Combined file applies all five pixel classification approache
 
 The Workflow_Visual_Comparison file then shows the Spearman correlation and Deming regression analysis used to compare workflow estimates and traditional visual scores. 
 
-All data used in this study will be uploaded to Dryad, and will be linked here once available. 
+All data used in this study will be uploaded to Dryad and will be linked here once available. The trained wheat head detection model weights used in this study can be found at **[Here](https://huggingface.co/Rmccon/Plot-Level-Wheat-Head-Detection/tree/main)**
